@@ -65,4 +65,4 @@ if __name__ == "__main__":
         convert_to_grayscale(color_path, grayscale_path)
         generate_phases(grayscale_path, phases_path)
     except ValueError as e:
-        print(e)
+        print(e) 
